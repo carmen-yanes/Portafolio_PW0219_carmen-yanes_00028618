@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Jomhuria&display=swap');
 body{
-    background-color: black;
+    background-color: grey;
+    text-align: center;
 }
-
 
 h1{
     color: white;
-    justify-content: center;
+    font-family: 'Jomhuria', cursive;
+    font-size: 100px;
+
 }
 
 .grid {
