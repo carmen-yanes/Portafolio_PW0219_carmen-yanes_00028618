@@ -14,7 +14,6 @@ main{
 
 }
 
-
 main>img{
     width:50%;
     height: auto;
@@ -27,11 +26,10 @@ main>img{
 main>hr{
     width:80%;
     background: white;
-    color: rgb(150, 45, 177);
+    color: rgb(192, 60, 148);
     display: flex;
 
 }
-
 
 main .logos{
     display: flex;
@@ -63,15 +61,23 @@ nav{
     justify-content: flex-end;
 }
 
-.btn{
+button {
     color: white;
-
-    background: gray;
-
+    height: 50px;
+    background: rgb(110, 110, 179);
     border-radius: 0.5em;
+    opacity: 0.5;
+
 
 }
 
+.cu{
+    background: blue;
+}
+
+.h{
+    background: red;
+}
 
 body{
     width: 100%;
@@ -106,7 +112,7 @@ footer{
 main h1{
     font-family: 'Shadows Into Light', cursive;
     font-size: 50px;
-    color: rgb(150, 45, 177);
+    color: rgb(192, 60, 148);
 }
 
 
