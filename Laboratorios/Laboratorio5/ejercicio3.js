@@ -2,6 +2,10 @@
 
 function verNum(a, arr){
 
+if(arr.includes(a)){
+    console.log("Si existe el numero dentro del arreglo");
+    
+}
 
 }
 
