@@ -6,9 +6,6 @@ function TipodeDato(arr){
         console.log(typeof arr[i]);
     }
 
-
-
-//CONTAR CUANTOS HAY DE CADA TIPO 
 }
 
 TipodeDato([4, "hola", undefined])

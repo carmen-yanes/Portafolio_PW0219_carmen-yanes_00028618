@@ -1,4 +1,4 @@
-//TERMINADO
+
 
 function palindroma(palabra) {
   var isPalindroma = true;

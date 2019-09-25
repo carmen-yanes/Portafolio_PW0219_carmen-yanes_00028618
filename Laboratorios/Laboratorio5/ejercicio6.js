@@ -1,5 +1,5 @@
 //Ordenamiento de array: Crear una función en JavaScript que ordene los elementos de un Array en orden ascendente. 
-//TERMINADO 
+
 
 function ordenar(lista){
     for(var i=0; i<lista.length;i++){
