@@ -1,7 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+#lunes{
+background-color: green;
+}
+#martes{
+    background-color: red;
+}
+#miercoles{
+    background-color: purple;
+}
+#jueves{
+    background-color: blue;
+}
+#viernes{
+    background-color: yellow;
+}
+
+.hidden{
+    display: none;
+}
+
 img {
     width: 75px;
+}
+
+.day img {
+    width: 150px;
 }
 
 body {
@@ -33,7 +57,6 @@ header {
     text-decoration: none;
 }
 
-
 .logo-nav-container {
     display: flex;
     justify-content: space-between;
@@ -51,11 +74,36 @@ header {
 }
 
 .navigation ul li a {
-    display: bocl;
+    display: block;
     padding: 0.5rem 1rem;
 }
 
 .navigation ul li a:hover {
     color: blueviolet;
+}
+
+main ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+main ul li:hover {
+    background-color:red;
+}
+
+main nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    word-spacing: em;
+    color: black;
+}
+
+main nav {
+    word-spacing: 2em;
+}
+
+main nav a:hover{
+    background-color: red;
 }
 
