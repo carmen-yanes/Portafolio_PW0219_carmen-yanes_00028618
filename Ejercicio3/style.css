@@ -1,22 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-#lunes{
-background-color: green;
-}
-#martes{
-    background-color: red;
-}
-#miercoles{
-    background-color: purple;
-}
-#jueves{
-    background-color: blue;
-}
-#viernes{
-    background-color: yellow;
-}
-
-.hidden{
+.no{
     display: none;
 }
 
@@ -24,8 +8,9 @@ img {
     width: 75px;
 }
 
-.day img {
-    width: 150px;
+.dia img {
+    width: 200px;
+    margin: 0 50%;
 }
 
 body {
@@ -33,7 +18,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     line-height: 1em;
-    margin: 0;
 }
 
 main {
@@ -46,9 +30,11 @@ p{
 
 header {
     background: grey;
-
+    
+/*Para que quede estatico*/
     position: fixed;
     top: 0;
+    right: 0;
     width: 100%;
 }
 
@@ -92,18 +78,20 @@ main ul li:hover {
     background-color:red;
 }
 
-main nav a {
+main div a {
     text-decoration: none;
     font-size: 1.2em;
-    word-spacing: em;
     color: black;
 }
 
-main nav {
-    word-spacing: 2em;
-}
-
-main nav a:hover{
+main div a:hover{
     background-color: red;
 }
 
+#t {
+    width: 450px;
+}
+
+footer img {
+    width: 1rem;
+}

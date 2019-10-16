@@ -1,41 +1,42 @@
-var pesta = document.querySelectorAll(".blog a");
-var week = document.querySelectorAll(".day");
-var show = week[0];
+var a = document.querySelectorAll(".menu a");
+var b = document.querySelectorAll(".dia");
+var mostrar = b[0];
 
 window.onload = function() {
-  console.log(show);
+  console.log(mostrar);
 
-  pesta[0].addEventListener("click", () => {
-    show.classList.add("hidden");
-    show = week[0];
-    show.classList.remove("hidden");
-    console.log(show);
-  });
-  pesta[1].addEventListener("click", () => {
-    show.classList.add("hidden");
-    show = week[1];
-    show.classList.remove("hidden");
-    console.log(show);
+  a[0].addEventListener("click", () => {
+    mostrar.classList.add("no");
+    mostrar = b[0];
+    mostrar.classList.remove("no");
+    console.log(mostrar);
   });
 
-  pesta[2].addEventListener("click", () => {
-    show.classList.add("hidden");
-    show = week[2];
-    show.classList.remove("hidden");
-    console.log(show);
+  a[1].addEventListener("click", () => {
+    mostrar.classList.add("no");
+    mostrar = b[1];
+    mostrar.classList.remove("no");
+    console.log(mostrar);
   });
 
-  pesta[3].addEventListener("click", () => {
-    show.classList.add("hidden");
-    show = week[3];
-    show.classList.remove("hidden");
-    console.log(show);
+  a[2].addEventListener("click", () => {
+    mostrar.classList.add("no");
+    mostrar = b[2];
+    mostrar.classList.remove("no");
+    console.log(mostrar);
   });
 
-  pesta[4].addEventListener("click", () => {
-    show.classList.add("hidden");
-    show = week[4];
-    show.classList.remove("hidden");
-    console.log(show);
+  a[3].addEventListener("click", () => {
+    mostrar.classList.add("no");
+    mostrar = b[3];
+    mostrar.classList.remove("no");
+    console.log(mostrar);
+  });
+
+  a[4].addEventListener("click", () => {
+    mostrar.classList.add("no");
+    mostrar = b[4];
+    mostrar.classList.remove("no");
+    console.log(mostrar);
   });
 };
